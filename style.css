@@ -82,6 +82,7 @@
     color: rgb(251, 192, 111);
     transform: scale(1);
 }
+
 .operators {
     display: flex;
     flex-wrap: wrap;
@@ -113,13 +114,13 @@
 }
 
 .equal {
-    flex-basis: calc(100% );
+    flex-basis: calc(74% );
     box-sizing: border-box;  
     border-radius: 24px;
     border: none;
     width: 50px;
     height: 50px; 
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: rgb(253, 181, 47);
     color: white;
     font-size: 25px;
@@ -129,4 +130,23 @@
     background-color: rgb(250, 144, 23);
     transform: scale(1);
     color: black;
+}
+
+.delete{
+    flex-basis: calc(23% );
+    box-sizing: border-box;  
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    background-color: rgb(253, 181, 47);
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.delete:hover {
+    background-color: rgb(64, 63, 63);
+    color: rgb(251, 192, 111);
+    transform: scale(1);
 }
